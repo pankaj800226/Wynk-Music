@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .container{
+    border-radius: 15px;
+    box-shadow: 1px 3px 10px rgba(20, 20, 20, 0.2);
+    margin-top: 29px;
+    margin-left: 7%;
+    background-color: #f8fefe;
+    height: 470px;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+
+  body{
+   
+    /* background-image: url('/logo/firstimage.jpg'); */
+    background-image: url('logo/bg.jpg');
+    /* background-size: 100% 100%; */ 
+    background-position: center;
+    
+  }
+
+  .container:hover{
+    filter: none(1);
+    transform: scale(1.03);
+  }
+
+  .products{
+    margin-left: 20%;
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+ 
+  }
+
+  .products img{
+    margin-left: -50px;
+    width: 55%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    transition: 0.5s ease;
+    
+  }
+
+  .products img:hover{
+    filter: none(1);
+transform: scale(1.03);
+  }
+
+  .songImage img{
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 50%;
+    box-shadow: 1px 3px 10px rgb(1 1 1 / 0.2);
+  }
+
+  .artistName p{
+    margin-top: 13px;
+  }
+
+  .songName p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .Play-songIcon a{
+    background: white;
+    padding: 12px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.Play-songIcon i{
+  padding: 27px 53px;
+  font-size: 52px;
+}
+.Play-songIcon a:active{
+  transform: scale(0.8);
+
+}
+
+.progress input{
+  width: 75%;
+  margin-top: 5px;
+}
+
+footer h2{
+  color: #fff;
+  background-color: blueviolet;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon1{
+    cursor: pointer;
+  }
+
+  #icon:active{
+    transform: scale(0.8);
+}
+
+#icon1:active{
+  transform: scale(0.8);
+}
+
+#icon3:active{
+  transform: scale(0.8);
+}
+
+#icon4:active{
+  transform: scale(0.8);
+}
+
+#icon5:active{
+  transform: scale(0.8);
+}
+
+#icon6:active{
+  transform: scale(0.8);
+}
+
+#icon7:active{
+  transform: scale(0.8);
+}
+
+#icon8:active{
+  transform: scale(0.8);
+}
+
+#icon9:active{
+  transform: scale(0.8);
+}
+
+#icon10:active{
+  transform: scale(0.8);
+}
+
+#icon11:active{
+  transform: scale(0.8);
+}
+
+#icon12:active{
+  transform: scale(0.8);
+}
+
+#icon13:active{
+  transform: scale(0.8);
+}
+
+#icon14:active{
+  transform: scale(0.8);
+}
+
+#icon15:active{
+  transform: scale(0.8);
+}
